@@ -1,9 +1,10 @@
- 
+
  ## WeatherAPP
- ---
--Using OpenWeatherMap API key,
--Create an account on https://openweathermap.org/api.
--API calls use city name entered by the user. 
+---
+- Using OpenWeatherMap API key,
+  - Create an account on https://openweathermap.org/api.API  
+  - calls use city name entered by the user. 
+
  # Goal
 
 - setting up **Node** environment with **Express** and project dependencies
