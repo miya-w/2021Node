@@ -2,7 +2,10 @@
 
 ## Node.js Practice ##
 ---
+Get the weather information by City's name
+
  # Goal
+
 - setting up **Node** environment with **Express** and project dependencies
 - setting up a server with `GET` and `POST` routes
 - accessing a `GET` route on the server side from a function called on the client side
