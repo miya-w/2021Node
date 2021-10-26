@@ -1,9 +1,9 @@
 
- ## WeatherAPP
+ ## WeatherAPP(CityName)
 ---
 - Using OpenWeatherMap API key,
   - Create an account on https://openweathermap.org/api.API  
-  - calls use city name entered by the user. 
+  - retrive weather information by city name entered by the user. 
 
  # Goal
 

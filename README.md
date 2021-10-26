@@ -2,7 +2,7 @@
 
 ## Node.js Practice ##
 ---
-Get the weather information by City's name
+
 
  # Goal
 

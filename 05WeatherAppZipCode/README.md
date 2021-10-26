@@ -1,5 +1,11 @@
 # WeatherAPP ( searching by Zip Code) 
 
+- Using OpenWeatherMap API key,
+  - Create an account on https://openweathermap.org/api.API  
+  - retrive weather information by ZipCode entered by the user. 
+
+ # 
+
  # Goal
 
 - setting up **Node** environment with **Express** and project dependencies
