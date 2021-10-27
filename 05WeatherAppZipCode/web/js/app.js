@@ -4,17 +4,13 @@ console.log('test');
 const baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
 // const baseCityURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
 
-// Personal API Key for OpenWeatherMap API
+// Personal API Key for OpenWeatherMap API // const unit = "metric"
 const myApiKey = "&appid=3917f3a764d0394f234b9a09d3463ef4&units=metric";
-// const unit = "metric"
-
 
 //date
-
 let d = new Date()
 let dateToday = d.getDate() + '/' + d.getMonth() + '/' + d.getFullYear();
-
-/* Function called by event listener */
+//* Function called by event listener *//
 document.getElementById('generate').addEventListener('click', getWeather);
 
 
@@ -70,12 +66,6 @@ const getWeatherInfo = async (baseURL, zipCode, myApiKey) => {
   }
 }
 
-
-
-
-
-
-
 // Add data to the project endpoint using POST
 const postData = async (url = '', data = {}) => {
   console.log(data);
@@ -98,10 +88,6 @@ const postData = async (url = '', data = {}) => {
   }
 }
 
-
-
-
-
 // Update UI dynamically
 const updateUI = async () => {
   const request = await fetch('/allData');
@@ -121,9 +107,3 @@ const updateUI = async () => {
     console.log("error", error);
   }
 }
-
-
-
-
-// postData('/addMovie', {movie:'terminal', score:'5'});
-// postData('/addMovie', {movie:'Matrix', score:'5'});
