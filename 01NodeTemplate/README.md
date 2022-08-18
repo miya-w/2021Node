@@ -1,4 +1,27 @@
- # Goal
+ # HelloWorld
+
+``` 
+//get method
+// app.get('/',function (req, res) {
+//   res.send("hello") 
+ 
+// })
+```
+### create different route
+```
+ app.get('/',function (req, res) {
+  res.send("hello") 
+  })
+   app.get('/about',function (req, res) {
+  res.send("My name is Mia!") 
+  })
+   app.get('/hobby',function (req, res) {
+  res.send("Beer& coffee") 
+  })
+```
+
+ ---
+ ## Goal
 - setting up **Node** environment with **Express** and project dependencies
 - setting up a server with `GET` and `POST` routes
 - accessing a `GET` route on the server side from a function called on the client side
