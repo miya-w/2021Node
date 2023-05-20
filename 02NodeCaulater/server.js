@@ -41,7 +41,8 @@ app.post('/',(req,res)=>{
   var num1 = Number(req.body.num1); // number 
   var num2 = Number(req.body.num2); // number 
   var result = num1 + num2;
-  res.send(result)
+  // res.send(result)
+  res.sendStatus(result)
   res.send("the result of calculation is" + result)
 
 

@@ -27,9 +27,10 @@ Node allows developers to write JavaScript code that runs directly in a computer
 - Evaluation
 - Print
 - Loop
+
 ### Node Module 
 Consider modules to be the same as JavaScript libraries.[W3s](https://www.w3schools.com/nodejs/nodejs_modules.asp)
-To include a module, use the require() function with the name of the module:
+To include a module, use the ***require()*** function with the name of the module:
 ```jacascript
 //example
 var http = require('http');
@@ -69,6 +70,7 @@ Cool tech stuff used in this project:
 
 - Download Node.js.
 - Install the following packages using npm.
+>- $npm init
 >- $npm install express
 >- $ npm install cors
 >- $ npm install body-parser

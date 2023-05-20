@@ -43,6 +43,7 @@ Cool tech stuff used in this project:
 
 - Download Node.js.
 - Install the following packages using npm.
+>- $npm init
 >- $npm install express
 >- $ npm install cors
 >- $ npm install body-parser

@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Node Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="/" method="POST"> 
+    <div class="container">
+        <form action="/" method="POST"> 
         <!-- // form action="/" ->So our form has a post method, which means it's going to 
         //try and send the data that is entered into the inputs to a location that is
         //our home route. -->
@@ -14,6 +16,7 @@
                 <input type="text" name="num2" placeholder="Second number">
                 <button type="submit" name="submit">Calculator</button>
             </form>
+    </div>
     
 </body>
 </html>

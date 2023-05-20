@@ -10,7 +10,7 @@
 ```
 
 ### { extended: true }
-- By setting that extended option to true, that basically just allows us to post nested objects. And it's not something that we're going to be using, but it's something that bodyParser is requiring you to explicitly declare. 
+- By setting that extended option to true, that basically just allows us to **post nested** objects. And it's not something that we're going to be using, but it's something that bodyParser is requiring you to explicitly declare. 
 - body parser allows us to **req.body**. 
     - ex. console.log(req.body.num1)
 
