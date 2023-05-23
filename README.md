@@ -70,15 +70,30 @@ Cool tech stuff used in this project:
 
 - Download Node.js.
 - Install the following packages using npm.
->- $npm init
->- $npm install express
->- $ npm install cors
->- $ npm install body-parser
-
+```javascript
+npm init
+npm install express
+npm install cors
+npm install body-parser
+```
 
 
 - Clone this repository.
->- cd into project directory.
-- Start the local server from command line.
+cd into project directory.
+Start the local server from command line.
+// start the server
+node server.js
+// leave the server
+ctrl + C
 
->- $ node server.js
+
+// Start a server 
+```javascript
+const express = require("express");
+
+const app = express();
+app.listen(3000, function(){
+    console.log('server start on 3000')
+});
+
+```
