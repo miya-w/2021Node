@@ -76,22 +76,39 @@ npm install express
 npm install cors
 npm install body-parser
 ```
-
+- NodeMon
+```
+npm install -g nodemon
+```
 
 - Clone this repository.
-cd into project directory.
-Start the local server from command line.
-// start the server
-node server.js
+```javascript
+// into project directory.
+cd projectName 
+// Start the local server from command line.
+start the server
+// node server.js
 // leave the server
 ctrl + C
+```
 
+### Start a server 
 
-// Start a server 
 ```javascript
+// Required and incorporated Express into our file.
 const express = require("express");
-
+// Create a new constant called app, and this is simply a function that represents the Express module, and we bind that to the word app.
 const app = express();
+
+// Now when that get request happens, we can trigger a callback function, and this callback function can
+// have two parameters: request and response. So this method, app.get, defines what should happen when someone makes a get request to the home route
+// that's the first parameter. And then there's a callback function that tells the server what to do when that request happens.
+app.get('/',function (req, res) {
+  res.send("<h1>helloooooo world!!!!!</h1>");
+})
+
+//its methods called listen.
+//And this tells it to listen on a specific port for any HTTP requests that get sent to our server. So I'm going to choose the port 3000
 app.listen(3000, function(){
     console.log('server start on 3000')
 });
